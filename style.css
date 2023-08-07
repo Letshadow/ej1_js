@@ -1,0 +1,11 @@
+.accordion{
+  --bs-accordion-bg: #6C757D;
+  --bs-accordion-active-bg:#0D6EFD;
+}
+#ModalBt{
+  margin-left: -25%;
+}
+.container{
+  width:70vw !important;
+  background-color:rgb(229, 118, 14) !important;
+}

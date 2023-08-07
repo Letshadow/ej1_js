@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Condicionales</title>
+</head>
+
+<body class="bg-dark">
+
+    <header class="container sticky-top py-4 my-4 text-white bg-dark rounded-start-pill">
+        <div class="row align-items-center">
+            <div class="col-10">
+                <h1 class="text-center">Condicionales</h1>
+                <h4 class="text-center">Oprime GO para ejecutar el ejercicio seleccionado 🢅</h4>
+                
+            </div>
+            <div class="col-2">
+                <button id="ModalBt" class="btn btn-outline-success w-100 h-100 fs-1" type="button" data-bs-toggle="modal"
+                    data-bs-target="#Input">
+                GO
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <hr class="">
+    <!---->
+    <article class="modal fade" id="Input" tabindex="-1" aria-labelledby="Input" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <section class="modal-header">
+                    <h1 class="modal-title fs-5" id="InputLabel">Bienvenido</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </section>
+                <section id="InputContent" class="modal-body">
+                    Selecciona un ejercicio               
+                </section>
+                <section class="modal-footer">
+                    <button id="close" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button id="gom" type="button" class="btn btn-primary">OK</button>
+                </section>
+            </div>
+        </div>
+    </article>
+
+    <article class="accordion accordion-flush p-2" id="AcP">
+        
+    </article>
+
+</body>
+
+
+</html>
